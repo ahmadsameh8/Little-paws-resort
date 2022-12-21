@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="SignUp.css" />
+	<title>SignUp-Form</title>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+
+  <body>
+  	<div class="container">
+      <form method="post" autocomplete="on">
+
+    		<div class="box">
+          <label for="First Name" class="fl fontLabel"> First Name: </label>
+    			<div class="new iconBox">
+            <i class="fa fa-user" aria-hidden="true"></i>
+          </div>
+    			<div class="fr">
+    					<input type="text" name="Name" placeholder="Name"
+              class="textBox" autofocus="on" required>
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+    		
+			<div class="box">
+				<label for="last Name" class="fl fontLabel"> Last Name: </label>
+					  <div class="new iconBox">
+				  <i class="fa fa-user" aria-hidden="true"></i>
+				</div>
+					  <div class="fr">
+							  <input type="text" name="Name" placeholder="Name"
+					class="textBox" autofocus="on" required>
+					  </div>
+					  <div class="clr"></div>
+				  </div>
+
+
+
+    		
+    		<div class="box">
+          <label for="email" class="fl fontLabel"> Email </label>
+    			<div class="fl iconBox"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+    			<div class="fr">
+    					<input type="email" required name="email" placeholder="Email Id" class="textBox">
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+
+    		<div class="box">
+          <label for="password" class="fl fontLabel"> Password: </label>
+    			<div class="fl iconBox"><i class="fa fa-key" aria-hidden="true"></i></div>
+    			<div class="fr">
+    					<input type="Password" required name="password"  placeholder="Password" class="textBox" > 
+    			</div>
+    			<div class="clr"></div>
+    		</div>
+
+
+    		<div class="box" >
+    				<input type="Submit" name="Submit" class="submit" value="Join">
+    		</div>
+				<div class="box">
+    				<a href="Login.html"><input  type="button" name="login" class="submit" value="Cancel"></a>
+    		</div>		
+      </form>
+  </div>
+  </body>
+</html>
