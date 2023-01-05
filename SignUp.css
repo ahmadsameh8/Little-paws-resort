@@ -2,10 +2,72 @@
 	padding: 0;
 	margin: 0;
 }
-body{
-  background: url("sameh.jpg") no-repeat center fixed;
-  background-size: 1500px 750px;
+head {
+  /*background-image: url("sameh.jpg");*/
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: crimson blue;
+  text-align: center;
+  bottom: 100px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
+.header-left{
+  color: deepskyblue;
+  text-align: left;
+  padding: 20px;
+  left: -10;
+
+}
+.header {
+  overflow: hidden;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  position: sticky; 
+}
+.header-right {
+  float: right;
+  text-align: center;
+
+}
+.logo {
+  font: 10px;
+  letter-spacing: 2px;
+  color: crimson;
+}
+.header-right li {
+  text-align: right;
+  color: blue;
+  display: inline-block;
+  padding: 10px 20px;
+}
+.header-right li a {
+  color: crimson blue;
+
+}
+.header-right li a:hover {
+  color: crimson;
+}
+img{
+  float: left;
+  max-width: 50%;
+  max-height: 50%;
+}
+
+body {
+  background-image: url("sameh.jpg");
+  background-position: center;
+  color: crimson blue;
+  text-align: center;
+  bottom: 10px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .container{
@@ -40,6 +102,7 @@ body{
 }
 
 .box{
+	
 	width: 360px;
 	height: 35px;
 	margin-top: 10px;

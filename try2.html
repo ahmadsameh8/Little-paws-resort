@@ -1,40 +1,45 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css"/>
+  <title>Little Paws resort</title>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <meta charset="utf-8">
   <title>Little paws hotel</title>
-  <link rel="stylesheet" href="style.css">
-  
-  <div class="logo">
-    <img src="logo.jpg" alt=""></div> 
-</head>
-<body>
+
   <div class ="header">
+          <div class="logo">
+            <img src="logo.jpg" alt=""></div> 
           <div class="header-left">
           <h1><span><p style="font-family:Brush Script MT, Brush Script Std, cursive">little paws hotel</span></h1>
           </p></div>
                 <div class="header-right">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Discover & Reserve</a></li>
-                    <li><a href="#">Special Offers</a></li>
-                    <li><a href="#">Events & Activities</a></li>
-                    <li><a href="#">Powfect service</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="Login.html" button="#">Sign in/up</a></li>
+                    <li><a href="try2.html">Home</a></li>
+                    <li><a href="discover.html">Discover & Reserve</a></li>
+                    <li><a href="sepcialoffers.html">Special Offers</a></li>
+                    <li><a href="service.html">Powfect service</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="LoginOption.html" button="#">Sign in/up</a></li>
                     
                   </div>
           </div>
         </div>
-            <div class="main">
+        </head>
+
+       <div class="main">
               <h1><span>Hotel for the</span></h1>
               <h1><span>whole family,</span></h1>
               <h1><span>all year around</span></h1>
             </div>
             
           </div>
-          
-          <div class="footer">
+
+<!--           <div class="footer">
                 <div id="checkin">
                 <button class="Check-in-Date">Check-in Date</button>
                 </div>
@@ -46,10 +51,46 @@
                 </div>
                 <div id="available">
                 <button class="Check-Availabilty">Check Availabilty
-                </div>
+                </div> -->
 
-                
+<footer>
+  <div class="footer-buttons">
+    <label for="start-date" >Check-in date:</label>
+    <input type="text" placeholder="yyyy-mm-dd" id="start-date" name="checkin" >
+    <label for="end-date">Check-out date:</label>
+    <input type="text"  placeholder="yyyy-mm-dd" id="end-date" name="checkout" >
+    <label for="rooms-pets">Number of Rooms/Pets:</label>
+    <input type="number" id="rooms-pets" name="roomspets" placeholder="Rooms-pets">
+    
+    <button id="check-availability" onclick="navigateToAvailabilityPage()">Check Availability</button>
 
+    <script>
+      function navigateToAvailabilityPage() {
+      window.location = "#";}
+    </script>
+  </footer>
+<!-- 
+  <br><br>
+<form action="available.php" method="get">
+<table>
+    <tr>
+        <th>Check In</th>
+        <td><input type="text" name="checkin"></td>
+    </tr>
+    <tr>
+        <th>Check Out</th>
+        <td><input type="text" name="checkout"></td>
+    </tr>
+    <tr>
+        <th>roomspets</th>
+       <td><input type="text" name="roomspets"></td>
+    </tr>
+
+    <tr>
+    <td><input type="submit" href="#"</td>
+    </tr>
+
+</table>
+</form> -->
 </body>
 </html>
-Footer
